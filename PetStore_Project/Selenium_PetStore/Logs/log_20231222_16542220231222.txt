@@ -1,0 +1,12 @@
+2023-12-22 16:54:22.074 +05:30 [INF] Search Product and Add to Cart Test Started
+2023-12-22 16:54:22.101 +05:30 [INF] JPetStore Home Page Loaded Successfully
+2023-12-22 16:54:23.198 +05:30 [INF] Typed search text Fish
+2023-12-22 16:54:23.198 +05:30 [INF] Product Lists Page Loaded Successfully
+2023-12-22 16:54:23.349 +05:30 [INF] JPetStore Demo Title Checked
+2023-12-22 16:54:23.715 +05:30 [INF] Clicked on product
+2023-12-22 16:54:23.715 +05:30 [INF] Product Page Loaded Successfully
+2023-12-22 16:54:23.861 +05:30 [INF] Product Goldfish Heading Checked
+2023-12-22 16:54:24.224 +05:30 [INF] Clicked on add to cart button
+2023-12-22 16:54:24.225 +05:30 [INF] Shopping Cart Page Loaded Successfully
+2023-12-22 16:54:24.471 +05:30 [INF] Shopping Cart Heading Checked
+2023-12-22 16:54:24.582 +05:30 [INF] Search Product and Add to Cart Test Passed
