@@ -1,0 +1,20 @@
+2023-12-07 15:37:51.638 +05:30 [INF] User Searching And Add To Cart And Check Out Test Started
+2023-12-07 15:37:52.179 +05:30 [INF] Typed search input
+2023-12-07 15:37:55.943 +05:30 [INF] Clicked on Search button
+2023-12-07 15:37:56.126 +05:30 [INF] Test passed for Searched Product List Page
+2023-12-07 15:37:56.234 +05:30 [INF] Clicked on Ghee Rice
+2023-12-07 15:37:58.343 +05:30 [INF] Test passed for Product Page
+2023-12-07 15:37:58.428 +05:30 [INF] Clicked on Size
+2023-12-07 15:37:58.595 +05:30 [INF] Clicked on Add to cart button
+2023-12-07 15:38:02.433 +05:30 [INF] Clicked on Checkout button
+2023-12-07 15:38:03.111 +05:30 [INF] Test passed for Payment Page
+2023-12-07 15:38:03.591 +05:30 [INF] Typed Email
+2023-12-07 15:38:03.806 +05:30 [INF] Typed First Name
+2023-12-07 15:38:04.004 +05:30 [INF] Typed last Name
+2023-12-07 15:38:04.239 +05:30 [INF] Typed Address
+2023-12-07 15:38:04.436 +05:30 [INF] Typed City
+2023-12-07 15:38:04.546 +05:30 [INF] Clicked State Drop Down
+2023-12-07 15:38:04.707 +05:30 [INF] Selected State
+2023-12-07 15:38:04.882 +05:30 [INF] Typed Pincode
+2023-12-07 15:38:05.667 +05:30 [INF] Typed PhoneNumber
+2023-12-07 15:38:05.840 +05:30 [INF] Test passed for Customer Details

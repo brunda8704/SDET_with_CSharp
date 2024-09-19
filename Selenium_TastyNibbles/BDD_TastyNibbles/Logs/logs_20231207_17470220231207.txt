@@ -1,0 +1,18 @@
+2023-12-07 17:47:08.329 +05:30 [INF] Typed search text Ghee rice
+2023-12-07 17:47:14.193 +05:30 [INF] Title Test success
+2023-12-07 17:47:14.193 +05:30 [INF] Title Test Passed
+2023-12-07 17:47:14.295 +05:30 [INF] Clicked on product
+2023-12-07 17:47:16.358 +05:30 [INF] Clicked on size
+2023-12-07 17:47:16.492 +05:30 [INF] Clicked on Add to Cart Button
+2023-12-07 17:47:22.014 +05:30 [INF] Clicked on Check Out Button
+2023-12-07 17:47:22.247 +05:30 [INF] Typed email
+2023-12-07 17:47:22.353 +05:30 [INF] Typed first name
+2023-12-07 17:47:22.463 +05:30 [INF] Typed last name
+2023-12-07 17:47:22.596 +05:30 [INF] Typed address
+2023-12-07 17:47:22.708 +05:30 [INF] Typed city
+2023-12-07 17:47:22.771 +05:30 [INF] Clicked on State drop down
+2023-12-07 17:47:22.846 +05:30 [INF] Selected state
+2023-12-07 17:47:22.974 +05:30 [INF] Typed pincode
+2023-12-07 17:47:23.293 +05:30 [INF] Typed phone number
+2023-12-07 17:47:23.477 +05:30 [INF] CheckOut Page Test success
+2023-12-07 17:47:23.477 +05:30 [INF] CheckOut Page Test Passed

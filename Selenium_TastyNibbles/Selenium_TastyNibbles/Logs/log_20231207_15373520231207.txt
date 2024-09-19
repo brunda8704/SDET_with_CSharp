@@ -1,0 +1,5 @@
+2023-12-07 15:37:35.227 +05:30 [INF] Searching And Add To Cart Test Started
+2023-12-07 15:37:35.371 +05:30 [INF] Clicked on Buy Now Button on Home Page
+2023-12-07 15:37:39.209 +05:30 [INF] Test passed for Product Page
+2023-12-07 15:37:39.320 +05:30 [INF] Clicked on Add to cart Button
+2023-12-07 15:37:39.766 +05:30 [INF] Test passed for Adding Product to Cart
