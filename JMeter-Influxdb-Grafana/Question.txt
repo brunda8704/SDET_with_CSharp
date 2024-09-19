@@ -1,0 +1,55 @@
+Case Study: Grafana Dashboard for JMeter Performance Monitoring
+
+Background:
+A company is utilizing JMeter for performance testing its web applications and wants a centralized monitoring solution to visualize key performance metrics. The goal is to create a Grafana dashboard that connects with JMeter for real-time monitoring, utilizes InfluxDB as a data source, and includes various visualizations. Choose any website of your choice with multiple request points available.
+
+Requirements:
+Data Source: Set up InfluxDB as the data source for Grafana. Configure JMeter to send performance metrics to InfluxDB.
+
+Dashboard Layout:
+Panel 1: Line Chart displaying the throughput (requests per second) over time.
+Panel 2: Bar Gauge showing the error rate.
+Panel 3: Table showing a list of recent requests, including response time and status.
+
+Alerts:
+Set up an alert to trigger when the error rate exceeds a certain threshold. The alert should send notifications. Add some users with email.
+
+Data Exploration:
+Visualize data over different time ranges (last 1 hour, 6 hours, 24 hours) in separate panels.
+
+CSV Data Source Reading:
+Include a CSV data source that provides additional contextual data. For example, a CSV file containing information about recent releases or deployments be added as a separate panel over time series based on the Date-Time.
+
+Implementation Steps:
+Setting Up InfluxDB:
+Install and configure InfluxDB.
+Create a database for JMeter metrics.
+
+Configuring JMeter:
+Configure JMeter to send performance metrics to InfluxDB.
+
+Creating Grafana Dashboard:
+Set up Grafana and add InfluxDB as a data source.
+Create a new dashboard with the specified layout.
+
+Visualizations:
+Configure each panel to display the desired metric using InfluxDB queries.
+Adjust visualization settings for clarity.
+
+Alert Configuration:
+Set up an alert on the error rate panel.
+Configure notification channels (e.g., email, Slack) for alerts.
+
+CSV Data Source:
+Add a CSV data source and link it to relevant panels for additional context.
+Use CSV data to display information about recent releases or deployments.
+
+Expected Outcome:
+The Grafana dashboard will provide a real-time overview of JMeter performance metrics, including throughput, error rates, active threads, and recent requests. The alerting system will notify stakeholders in case of abnormal performance, and the CSV data source will offer additional insights into the correlation between performance and recent changes.
+
+Note:
+Adjustments may be needed based on specific configurations and requirements.
+
+https://www.perfmatrix.com/jmeter-grafana-dashboard-using-influxdb/
+https://www.youtube.com/watch?v=2rdGrn8tfEA&t=1s
+Use the above link for reference purposes to work on the case study
