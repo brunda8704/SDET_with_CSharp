@@ -1,0 +1,33 @@
+2023-12-18 15:50:13.843 +05:30 [INF] Get Logs User Into System Test Started
+2023-12-18 15:50:15.303 +05:30 [INF] API Response: {"code":200,"type":"unknown","message":"logged in user session:1702894815137"}
+2023-12-18 15:50:15.307 +05:30 [INF] User returned
+2023-12-18 15:50:15.308 +05:30 [INF] User Code matches with fetch 200
+2023-12-18 15:50:15.308 +05:30 [INF] User Type matches with fetch unknown
+2023-12-18 15:50:15.309 +05:30 [INF] User Message matches with fetch
+2023-12-18 15:50:15.309 +05:30 [INF] Get Logs User Into System test passed
+2023-12-18 15:50:15.312 +05:30 [INF] Get Logs Out Current Logged In User Session Test Started
+2023-12-18 15:50:15.847 +05:30 [INF] API Response: {"code":200,"type":"unknown","message":"ok"}
+2023-12-18 15:50:15.847 +05:30 [INF] User returned
+2023-12-18 15:50:15.847 +05:30 [INF] User Code matches with fetch 200
+2023-12-18 15:50:15.847 +05:30 [INF] User Type matches with fetch unknown
+2023-12-18 15:50:15.847 +05:30 [INF] User Message matches with fetch ok
+2023-12-18 15:50:15.847 +05:30 [INF] Get Logs Out Current Logged In User Session test passed
+2023-12-18 15:50:15.849 +05:30 [INF] Create User Test Started
+2023-12-18 15:50:16.527 +05:30 [INF] API Response: {"code":200,"type":"unknown","message":"100"}
+2023-12-18 15:50:16.527 +05:30 [INF] User Code matches with fetch 200
+2023-12-18 15:50:16.527 +05:30 [INF] User Type matches with fetch unknown
+2023-12-18 15:50:16.527 +05:30 [INF] User Message matches with fetch 100
+2023-12-18 15:50:16.527 +05:30 [INF] Create User test passed
+2023-12-18 15:50:16.528 +05:30 [INF] Update User Test Started
+2023-12-18 15:50:17.296 +05:30 [INF] API Response: {"code":200,"type":"unknown","message":"100"}
+2023-12-18 15:50:17.296 +05:30 [INF] User updated and returned
+2023-12-18 15:50:17.297 +05:30 [INF] User Code matches with fetch 200
+2023-12-18 15:50:17.297 +05:30 [INF] User Type matches with fetch unknown
+2023-12-18 15:50:17.297 +05:30 [INF] User Message matches with fetch 100
+2023-12-18 15:50:17.297 +05:30 [INF] Update User test passed
+2023-12-18 15:50:17.298 +05:30 [INF] Delete User Test Started
+2023-12-18 15:50:17.889 +05:30 [INF] API Response: {"code":200,"type":"unknown","message":"user1"}
+2023-12-18 15:50:17.890 +05:30 [INF] User Code matches with fetch 200
+2023-12-18 15:50:17.890 +05:30 [INF] User Type matches with fetch unknown
+2023-12-18 15:50:17.890 +05:30 [INF] User Message matches with fetch user1
+2023-12-18 15:50:17.890 +05:30 [INF] Delete User test passed
