@@ -1,0 +1,45 @@
+Assignment: Web Scraping and Visualization with Prometheus and Grafana
+
+Objective:
+
+Utilize the Blackbox Exporter to scrape details from a website and monitor its availability.
+Store the scraped data in Prometheus.
+Create a Grafana dashboard to visualize the website's availability and response times.
+
+Tasks:
+Setup:
+Install and configure the Blackbox Exporter, Prometheus, and Grafana on your system.
+
+Configure Blackbox Exporter:
+Define a target in the Blackbox Exporter configuration to scrape a specific website.
+Configure probing modules in Blackbox Exporter to check for HTTP availability and response time.
+
+Integrate with Prometheus:
+Configure Prometheus to scrape data from the Blackbox Exporter.
+Ensure that scraped metrics related to the website's availability and response time are being stored in Prometheus.
+Check if the Targets are being scraped from the Exporter. Document the results.
+Add panels and provide multiple Prom queries and showcase them as Table/graph. Document the results.
+
+
+Create Grafana Dashboard:
+Connect Grafana to Prometheus as a data source.
+Design a Grafana dashboard with panels that visualize the following:
+Website availability (up or down status).
+Response time metrics.
+Additional relevant metrics that can be visulized.
+Add annotations as per the results.
+
+Alerting:
+Implement alerting in Prometheus for the website's availability.
+Configure Grafana to visualize and manage alerts.
+
+Documentation:
+Provide documentation that includes step-by-step instructions for setting up the entire monitoring solution.
+Include screenshots of the Grafana dashboard and any configured alerts.
+
+Submission:
+Share the documentation, configuration files, and any scripts used for this assignment.
+If possible, provide a brief summary of the insights gained from monitoring the website.
+
+
+Note: Ensure that you choose a website that allows scraping and adhere to ethical scraping practices.
