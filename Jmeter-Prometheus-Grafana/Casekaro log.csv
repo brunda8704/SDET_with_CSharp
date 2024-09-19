@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1706957973803,721,home/-385,200,OK,Thread Group 1-1,text,true,,31267,668,1,1,https://casekaro.com/,720,0,493
+1706957974558,172,mobile covers/pages/mobile-back-covers-757,200,OK,Thread Group 1-1,text,true,,27057,1358,1,1,https://casekaro.com/pages/mobile-back-covers,172,0,0
+1706957974733,356,mobile covers/.well-known/shopify/monorail/v1/produce-812,200,OK,Thread Group 1-1,,true,,1122,9229,1,1,https://casekaro.com/.well-known/shopify/monorail/v1/produce,356,0,0
+1706957975096,200,mouse pad/collections/mouse-pad-935,200,OK,Thread Group 1-1,text,true,,35049,1355,1,1,https://casekaro.com/collections/mouse-pad,200,0,0
+1706957975301,149,cart/cart-517,200,OK,Thread Group 1-1,text,true,,25795,1338,1,1,https://casekaro.com/cart,149,0,0
+1706957975455,240,"track order/pages/track-order-1-1,170",200,OK,Thread Group 1-1,text,true,,25710,1353,1,1,https://casekaro.com/pages/track-order-1,240,0,0
+1706957975704,250,home/-385,200,OK,Thread Group 1-2,text,true,,31131,668,1,1,https://casekaro.com/,250,0,113
+1706957975962,139,mobile covers/pages/mobile-back-covers-757,200,OK,Thread Group 1-2,text,true,,27045,1358,1,1,https://casekaro.com/pages/mobile-back-covers,139,0,0
+1706957976105,404,mobile covers/.well-known/shopify/monorail/v1/produce-812,200,OK,Thread Group 1-2,,true,,1120,9229,1,1,https://casekaro.com/.well-known/shopify/monorail/v1/produce,404,0,0
+1706957976514,149,mouse pad/collections/mouse-pad-935,200,OK,Thread Group 1-2,text,true,,35001,1355,1,1,https://casekaro.com/collections/mouse-pad,149,0,0
+1706957976666,137,cart/cart-517,200,OK,Thread Group 1-2,text,true,,25909,1338,1,1,https://casekaro.com/cart,136,0,0
+1706957976807,140,"track order/pages/track-order-1-1,170",200,OK,Thread Group 1-2,text,true,,25596,1353,1,1,https://casekaro.com/pages/track-order-1,139,0,0
+1706957977700,258,home/-385,200,OK,Thread Group 1-3,text,true,,31115,668,1,1,https://casekaro.com/,258,0,107
+1706957977962,192,mobile covers/pages/mobile-back-covers-757,200,OK,Thread Group 1-3,text,true,,27138,1358,1,1,https://casekaro.com/pages/mobile-back-covers,192,0,0
+1706957978158,383,mobile covers/.well-known/shopify/monorail/v1/produce-812,200,OK,Thread Group 1-3,,true,,1122,9229,1,1,https://casekaro.com/.well-known/shopify/monorail/v1/produce,383,0,0
+1706957978545,192,mouse pad/collections/mouse-pad-935,200,OK,Thread Group 1-3,text,true,,35060,1355,1,1,https://casekaro.com/collections/mouse-pad,191,0,0
+1706957978743,132,cart/cart-517,200,OK,Thread Group 1-3,text,true,,25834,1338,1,1,https://casekaro.com/cart,132,0,0
+1706957978880,189,"track order/pages/track-order-1-1,170",200,OK,Thread Group 1-3,text,true,,25630,1353,1,1,https://casekaro.com/pages/track-order-1,189,0,0
+1706957979700,244,home/-385,200,OK,Thread Group 1-4,text,true,,31040,668,1,1,https://casekaro.com/,243,0,102
+1706957979952,219,mobile covers/pages/mobile-back-covers-757,200,OK,Thread Group 1-4,text,true,,26990,1358,1,1,https://casekaro.com/pages/mobile-back-covers,219,0,0
+1706957980175,358,mobile covers/.well-known/shopify/monorail/v1/produce-812,200,OK,Thread Group 1-4,,true,,1128,9229,1,1,https://casekaro.com/.well-known/shopify/monorail/v1/produce,358,0,0
+1706957980536,144,mouse pad/collections/mouse-pad-935,200,OK,Thread Group 1-4,text,true,,35069,1355,1,1,https://casekaro.com/collections/mouse-pad,143,0,0
+1706957980684,122,cart/cart-517,200,OK,Thread Group 1-4,text,true,,25968,1338,1,1,https://casekaro.com/cart,122,0,0
+1706957980810,151,"track order/pages/track-order-1-1,170",200,OK,Thread Group 1-4,text,true,,25581,1353,1,1,https://casekaro.com/pages/track-order-1,151,0,0
+1706957981700,239,home/-385,200,OK,Thread Group 1-5,text,true,,31057,668,1,1,https://casekaro.com/,239,0,103
+1706957981951,200,mobile covers/pages/mobile-back-covers-757,200,OK,Thread Group 1-5,text,true,,27182,1358,1,1,https://casekaro.com/pages/mobile-back-covers,200,0,0
+1706957982154,350,mobile covers/.well-known/shopify/monorail/v1/produce-812,200,OK,Thread Group 1-5,,true,,1118,9229,1,1,https://casekaro.com/.well-known/shopify/monorail/v1/produce,350,0,0
+1706957982507,135,mouse pad/collections/mouse-pad-935,200,OK,Thread Group 1-5,text,true,,34984,1355,1,1,https://casekaro.com/collections/mouse-pad,135,0,0
+1706957982645,186,cart/cart-517,200,OK,Thread Group 1-5,text,true,,25789,1338,1,1,https://casekaro.com/cart,186,0,0
+1706957982835,179,"track order/pages/track-order-1-1,170",200,OK,Thread Group 1-5,text,true,,25634,1353,1,1,https://casekaro.com/pages/track-order-1,179,0,0

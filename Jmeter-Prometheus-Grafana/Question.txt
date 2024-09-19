@@ -1,0 +1,44 @@
+Case Study: Performance Monitoring and Analysis with JMeter, Prometheus, and Grafana
+
+Objective:
+A large e-commerce website wants to ensure optimal performance during peak times and identify potential bottlenecks. The goal is to implement a performance monitoring solution using JMeter for load testing, Prometheus for metrics collection, and Grafana for visualization. Choose a website which has an e-commerce availability. ( amazon, bunnycart, justdogsstore, or any other)
+
+Tasks:
+
+Setting Up Infrastructure:
+Deploy the e-commerce application in a testing environment.
+Install and configure JMeter, Prometheus, and Grafana.
+
+Load Testing with JMeter:
+Design JMeter test plans to simulate realistic user scenarios, including loading the site, searching for products, and any other dunctionality available (atleast 5)
+Use JMeter Recording tool.
+Add necessary Configurations needed to test smoothly.
+Do Assertions as deemed (atleast 5 different assertions checking various response factors)
+Add listeners as needed.
+Execute the load tests to measure response times, throughput, and error rates with 5 users and appropriate interval to increase user load.
+Execute tests, create logs, Reports on test results.
+
+Instrumenting the Application:
+Integrate the application with Prometheus exporters to expose relevant metrics (HTTP response times, database queries, server health, etc.).
+
+Configuring Prometheus:
+Configure Prometheus to scrape metrics from the application's exporters.
+Implement appropriate retention policies for collected metrics.
+
+Creating Grafana Dashboards:
+Connect Grafana to Prometheus as a data source.
+Design Grafana dashboards that visualize key performance metrics from JMeter and application exporters.
+Include panels for response times, error rates, throughput, and system resource usage.
+
+Alerting and Monitoring:
+Implement alerting rules in Prometheus based on thresholds for response times and error rates.
+Configure Grafana to display and manage alerts effectively.
+
+Analysis and Recommendations:
+Analyze the collected metrics to identify performance bottlenecks during load testing. (if any and annotate)
+Provide recommendations for optimizing the application based on the analysis. (if any)
+
+Documentation:
+Details of JMeter test plans.
+Prometheus configuration.
+Grafana dashboard designs.
