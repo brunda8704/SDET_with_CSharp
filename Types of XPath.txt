@@ -1,0 +1,181 @@
+Types of XPath
+
+Xpath=//tagname[@Attribute='value']
+
+
+Absolute XPath
+/html/body/div/div/form/table/tbody/tr/td/input
+
+Relative XPath
+//li[@id='menu-item-4335']//a[normalize-space()='Free Resources']
+
+===================================
+
+
+Dynamic XPath in Selenium
+
+Using Single Slash
+finding elements using Absolute XPath.
+---------
+Using Double Slash
+finding elements using Relative XPath.
+-----------------
+Using Single Attribute
+//<HTML tag>[@attribute_name='attribute_value']
+//*[@attribute_name='attribute_value']
+‘*‘ after double slash is to match any tag with the desired text
+
+//input[@id='Email']
+//*[@id='Email']
+
+
+Xpath=//input[@type='text']
+Xpath=//label[@id='message23']
+Xpath=//input[@value='RESET']
+Xpath=//*[@class='barone']
+Xpath=//a[@href='http://demo.guru99.com/']
+Xpath=//img[@src='//guru99.com/images/home/java.png']
+
+--------------------
+Using Multiple Attribute
+//<HTML tag>[@attribute_name1='attribute_value1'][@attribute_name2='attribute_value2]
+//*[@attribute_name1='attribute_value1'][@attribute_name2='attribute_value2]
+
+//input[@id='Email'][@name='Email']
+//*[@id='Email'][@name='Email']
+-------------
+Using AND
+//<HTML tag>[@attribute_name1='attribute_value1' and @attribute_name2='attribute_value2]
+//*[@attribute_name1='attribute_value1' and @attribute_name2='attribute_value2]
+
+//input[@id='Email' and @name='Email']
+//*[@id='Email' and @name='Email']
+
+Xpath=//input[@type='submit' and @name='btnLogin']
+
+
+---------------
+Using OR
+//<HTML tag>[@attribute_name1='attribute_value1' or @attribute_name2='attribute_value2]
+//*[@attribute_name1='attribute_value1' or @attribute_name2='attribute_value2]
+
+//input[@id='Email' or @name='Email']
+//*[@id='Email' or @name='Email']
+
+Xpath=//input[@type='submit' or @name='btnLogin']
+
+
+------------------
+Using contains()
+//<HTML tag>[contains(@attribute_name,'attribute_value')]
+//*[contains(@attribute_name,'attribute_value')]
+
+//input[contains(@id,'Email')]
+//*[contains(@id,'Email')]
+//input[contains(@name,'Email')]
+//*input[contains(@name,'Email')]
+
+Xpath=//*[contains(@type,'sub')]
+Xpath=//*[contains(@name,'btn')]
+Xpath=//*[contains(@id,'message')]
+Xpath=//*[contains(text(),'here')]
+Xpath=//*[contains(@href,'guru99.com')]
+----------------
+Using starts-with()
+//<HTML tag>[starts-with(@attribute_name,'attribute_value')]
+//*[starts-with(@attribute_name,'attribute_value')]
+
+//input[starts-with(@id,'Ema')]
+//*[starts-with(@id,'Ema')]
+
+Xpath=//label[starts-with(@id,'message')]
+
+-----------------
+Using text()
+//*[text()='value']
+
+//*[text()='New look for sign-in coming soon']
+
+Xpath=//td[text()='UserID']
+
+
+------------------
+Using last()
+Selects the last element (of mentioned type) out of all input element present
+
+findElement(By.xpath("(//input[@type='text'])[last()]"))
+findElement(By.xpath("(//input[@type='text'])[last()-1]")) 	//last but 1
+-----------------------
+Using position()
+[@type=’text’] will locate text field and function [position()=2] will locate text filed which is located on 2nd position from the top.
+
+findElement(By.xpath("(//input[@type='text'])[position()=2]"))
+findElement(By.xpath("(//input[@type='text'])[2]"))
+--------------------------
+Using index
+ index position in the square brackets, moves to the nth element. 
+
+findElement(By.xpath("//label[2]"))     //last name
+---------------------
+Using following XPath axes
+select everything on the web page after the closing tag of the current node
+
+FirstName field : //*[@id='FirstName']
+
+Input field of type text after the FirstName field
+//*[@id='FirstName']/following::input[@type='text']
+
+Input field after the FirstName field
+//*[@id='FirstName']/following::input
+
+Xpath=//*[@type='text']//following::input
+
+
+---------------------------
+Using preceding XPath axes
+Selects all nodes that appear before the current node in the document
+
+LastName field : //*[@id='LastName']
+
+Input field of type text before the LastName field
+//*[@id='LastName']//preceding::input[@type='text']"
+
+Xpath=//*[@type='submit']//preceding::input
+Xpath=//*[@type='submit']//preceding::input[1]
+
+---------------------------
+
+ancesstor 
+Xpath=//*[text()='Enterprise Testing']//ancestor::div
+Xpath=//*[text()='Enterprise Testing']//ancestor::div[1]
+
+child
+Xpath=//*[@id='java_technologies']//child::li
+Xpath=//*[@id='java_technologies']//child::li[1]
+
+Following-sibling
+xpath=//*[@type='submit']//following-sibling::input
+
+Parent
+Xpath=//*[@id='rt-feature']//parent::div
+Xpath=//*[@id='rt-feature']//parent::div[1]
+
+Self
+Xpath =//*[@type='password']//self::input
+
+Descendant
+Xpath=//*[@id='rt-feature']//descendant::a
+Xpath=//*[@id='rt-feature']//descendant::a[2]
+
+
+
+
+
+
+
+=======================================================================
+
+
+
+
+
