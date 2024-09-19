@@ -1,0 +1,4 @@
+2023-12-22 08:42:26.880 +05:30 [INF] Typed search text Ghee rice
+2023-12-22 08:42:29.160 +05:30 [INF] Add to cart Test success
+2023-12-22 08:42:29.161 +05:30 [INF] Add to cart Passed
+2023-12-22 08:42:29.433 +05:30 [INF] Clicked on product
