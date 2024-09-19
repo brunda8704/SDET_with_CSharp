@@ -1,0 +1,32 @@
+2023-12-17 20:53:07.765 +05:30 [INF] Get All User Test Started
+2023-12-17 20:53:08.610 +05:30 [INF] API Response: [{"id":5835530,"name":"Msgr. Bhaanumati Kakkar","email":"bhaanumati_msgr_kakkar@fadel-lindgren.test","gender":"female","status":"active"},{"id":5835527,"name":"Chaanakya Embranthiri","email":"chaanakya_embranthiri@wintheiser.test","gender":"male","status":"inactive"},{"id":5835525,"name":"Dr. Chitramala Dhawan","email":"chitramala_dr_dhawan@johns.test","gender":"male","status":"active"},{"id":5835524,"name":"Drona Abbott","email":"drona_abbott@kihn-thompson.test","gender":"female","status":"inactive"},{"id":5835523,"name":"Aadrika Khatri","email":"aadrika_khatri@crist.test","gender":"female","status":"inactive"},{"id":5835522,"name":"Rep. Achalesvara Tagore","email":"rep_tagore_achalesvara@stiedemann-dicki.test","gender":"male","status":"active"},{"id":5835521,"name":"Anjaneya Malik","email":"anjaneya_malik@dickens.test","gender":"male","status":"active"},{"id":5835520,"name":"Chandra Pilla","email":"pilla_chandra@turner.test","gender":"female","status":"active"},{"id":5835519,"name":"Mr. Dayaanidhi Varma","email":"mr_varma_dayaanidhi@mueller.example","gender":"female","status":"inactive"},{"id":5835518,"name":"Anala Panicker PhD","email":"phd_anala_panicker@mertz.example","gender":"male","status":"active"}]
+2023-12-17 20:53:08.621 +05:30 [INF] Get All User test passed
+2023-12-17 20:53:08.624 +05:30 [INF] Get Single User Test Started
+2023-12-17 20:53:08.960 +05:30 [INF] API Response: {"id":5835530,"name":"Msgr. Bhaanumati Kakkar","email":"bhaanumati_msgr_kakkar@fadel-lindgren.test","gender":"female","status":"active"}
+2023-12-17 20:53:08.960 +05:30 [INF] User returned
+2023-12-17 20:53:08.961 +05:30 [INF] User Id matches with fetch 5835530
+2023-12-17 20:53:08.961 +05:30 [INF] User Name matches with fetch Msgr. Bhaanumati Kakkar
+2023-12-17 20:53:08.961 +05:30 [INF] User Email matches with fetch bhaanumati_msgr_kakkar@fadel-lindgren.test
+2023-12-17 20:53:08.961 +05:30 [INF] User Gender matches with fetch female
+2023-12-17 20:53:08.961 +05:30 [INF] User Status matches with fetch active
+2023-12-17 20:53:08.961 +05:30 [INF] Get Single User test passed
+2023-12-17 20:53:08.969 +05:30 [INF] Create User Test Started
+2023-12-17 20:53:09.477 +05:30 [INF] API Response: {"id":5836285,"name":"Amal","email":"amal@gmail.com","gender":"male","status":"active"}
+2023-12-17 20:53:09.477 +05:30 [INF] User created and returned
+2023-12-17 20:53:09.477 +05:30 [INF] User Name matches with fetch Amal
+2023-12-17 20:53:09.478 +05:30 [INF] User Email matches with fetch amal@gmail.com
+2023-12-17 20:53:09.478 +05:30 [INF] User Gender matches with fetch male
+2023-12-17 20:53:09.478 +05:30 [INF] User Status matches with fetch active
+2023-12-17 20:53:09.478 +05:30 [INF] Create User test passed
+2023-12-17 20:53:09.478 +05:30 [INF] Update User Test Started
+2023-12-17 20:53:09.921 +05:30 [INF] API Response: {"email":"ashwiniRaj@gmail.com","name":"AshwiniRaj","gender":"female","status":"active","id":5836135}
+2023-12-17 20:53:09.922 +05:30 [INF] User updated and returned
+2023-12-17 20:53:09.922 +05:30 [INF] Update User test passed
+2023-12-17 20:53:09.923 +05:30 [INF] Partial Update User Test Started
+2023-12-17 20:53:10.343 +05:30 [INF] API Response: {"status":"inactive","id":5836135,"name":"AshwiniRaj","email":"ashwiniRaj@gmail.com","gender":"female"}
+2023-12-17 20:53:10.343 +05:30 [INF] User updated and returned
+2023-12-17 20:53:10.343 +05:30 [INF] Partial Update User test passed
+2023-12-17 20:53:10.344 +05:30 [INF] Delete User Test Started
+2023-12-17 20:53:10.833 +05:30 [INF] API Response: 
+2023-12-17 20:53:10.834 +05:30 [INF] User deleted
+2023-12-17 20:53:10.834 +05:30 [INF] Delete User test passed
